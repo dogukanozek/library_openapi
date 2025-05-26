@@ -1,24 +1,24 @@
 # University Library OpenAPI
 
-This repository contains the OpenAPI specification for the **University Library**, an online system for managing library resources in a university environment. The API provides full CRUD operations for handling books, students, and loan transactions.
+This repository contains the OpenAPI specification for the **University Library**, an online system designed as part of the _Açık Kaynak Kodlu Yazılımlar_ course assignment. The API provides CRUD operations for managing books, students, and loan transactions.
 
 ## 📄 OpenAPI Specification
 
 - **Version:** 3.0.3  
-- **File:** `openapi_duzgun.yaml`  
+- **File:** `openapi.yaml`  
 - **Base URLs:**
   - Local: `http://localhost:3000`
   - Production: `https://api.universite-kutuphane.com/v1`
 
 ## ✨ Features
 
-- **Books:** Manage library books (list, view, add, update, delete)
-- **Students:** Manage student records (list, view, add, update, delete)
-- **Loans:** Handle book loan and return processes
+- **Books:** Create, read, update, and delete books in the library
+- **Students:** Manage university student records
+- **Loans:** Handle book borrowing and returning transactions
 
 ## 🔐 Security
 
-The API uses an **API key** for authentication. Include the `X-API-Key` header in your requests.
+This API uses an API key for authentication. Make sure to include the following header in your requests:
 
 ```
 X-API-Key: YOUR_API_KEY
@@ -26,33 +26,26 @@ X-API-Key: YOUR_API_KEY
 
 ## 🚀 Usage
 
-Clone the repository:
+To use or test this API:
 
 ```bash
-git clone https://github.com/omerkavakli0/university-library-openapi.git
+git clone https://github.com/dogukanozek/library_openapi.git
+cd library_openapi
+open openapi.yaml
 ```
 
-Navigate to the project directory:
-
-```bash
-cd university-library-openapi
-```
-
-Open the OpenAPI specification:
-
-```bash
-open openapi_duzgun.yaml
-```
-
-Or view it using Swagger Editor or Swagger UI.
+You can load the file in [Swagger Editor](https://editor.swagger.io) for visualization and testing.
 
 ## 📚 Documentation
 
-To view and interact with the API documentation, use:
+You may use any OpenAPI-compatible tools such as:
 
-- [Swagger Editor](https://editor.swagger.io)
-- Or host it with [Swagger UI](https://swagger.io/tools/swagger-ui/)
+- Swagger UI
+- Redoc
+- Postman (import via YAML)
 
 ---
 
-This specification was created as part of an academic assignment by **Doğukan Özek** (Student No: 171422001).
+Prepared by **Doğukan Özek**  
+Student No: **171422001**  
+Course: **Açık Kaynak Kodlu Yazılımlar**
