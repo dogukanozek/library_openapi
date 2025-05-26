@@ -17,7 +17,7 @@
 - Swagger Editor ile test ettiğinizden emin olunuz.
 
 ### 🔗 GitHub Repo Linki
-[GitHub projenizin linkini buraya yazınız]
+https://github.com/dogukanozek/library_openapi.git
 
 ---
 
